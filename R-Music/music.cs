@@ -1,33 +1,25 @@
-﻿//describing a music. It should have:
-//name - musicName
-//artist - singer
-//music length - lengthTime
-//if available on the plan or not - availability
-
-class Music
+﻿class Music
 {
-    public string musicName;
-    public string singerName;
-    public int lengthTime;
-    private bool availability;
-
-
-    public void WriteAvailability(bool value)
-    {
-        availability = value;
+    public string MusicName { get; set; }
+    public string SingerName { get; set; }
+    public int LengthTime { get; set; }
+    public bool Availability { get; set; }
+    public string Description 
+    { 
+        get 
+        {  
+            return $"The music {MusicName} belongs to {SingerName}";
+        }
     }
 
-    public bool ReadAvailability() 
-    {
-        return availability;
-    }
 
     public void ShowDataSheet()
     {
-        Console.WriteLine($"Music name: {musicName}");
-        Console.WriteLine($"Singer name: {singerName}");
-        Console.WriteLine($"Music Length: {lengthTime}");
-        if (availability)
+        Console.WriteLine($"Music name: {MusicName}");
+        Console.WriteLine($"Singer name: {SingerName}");
+        Console.WriteLine($"Music Length: {LengthTime}");
+        Console.WriteLine(Description);
+        if (Availability)
         {
             Console.WriteLine("This music is available on your plan!");
         } else
@@ -37,3 +29,11 @@ class Music
         
     }
 }
+
+
+//describing a music. It should have:
+//name - MusicName
+//artist - Singer
+//music length - LengthTime
+//if available on the plan or not - Availability
+//join Music Name and Artist - Description
