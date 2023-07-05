@@ -10,9 +10,10 @@
 
     public void ShowDiscography()
     {
+        Console.WriteLine($"Discography of {SingerName}.");
         foreach (Album album in albums)
         {
-            Console.WriteLine($"Album: {album.AlbumName}.\nDuration: ({album.TotalAlbumLengthTime}) .");
+            Console.WriteLine($"Album: {album.AlbumName}.({album.TotalAlbumLengthTime}) .");
         }
     }
 }

@@ -1,7 +1,12 @@
 ﻿class Music
 {
+    public Music(Singer singer) 
+    {
+        SingerName = singer;
+    }
+
     public string MusicName { get; set; }
-    public string SingerName { get; set; }
+    public Singer SingerName { get; }
     public int LengthTime { get; set; }
     public bool Availability { get; set; }
     public string Description => $"The music {MusicName} belongs to {SingerName}"; //=> read mode (lambda)
