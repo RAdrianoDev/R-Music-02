@@ -54,7 +54,10 @@ albumFeiYuChing.AddMusic(music10);
 
 albumFeiYuChing.ShowAlbumMusics();
 
-
+Singer feiYuChing = new Singer();
+feiYuChing.SingerName = "Fei Yu Ching";
+feiYuChing.AddAlbum(albumFeiYuChing);
+feiYuChing.ShowDiscography();
 
 
 
