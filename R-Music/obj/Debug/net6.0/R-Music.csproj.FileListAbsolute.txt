@@ -1,0 +1,15 @@
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\bin\Debug\net6.0\R-Music.exe
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\bin\Debug\net6.0\R-Music.deps.json
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\bin\Debug\net6.0\R-Music.runtimeconfig.json
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\bin\Debug\net6.0\R-Music.dll
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\bin\Debug\net6.0\R-Music.pdb
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\obj\Debug\net6.0\R-Music.csproj.AssemblyReference.cache
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\obj\Debug\net6.0\R-Music.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\obj\Debug\net6.0\R-Music.AssemblyInfoInputs.cache
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\obj\Debug\net6.0\R-Music.AssemblyInfo.cs
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\obj\Debug\net6.0\R-Music.csproj.CoreCompileInputs.cache
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\obj\Debug\net6.0\R-Music.dll
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\obj\Debug\net6.0\refint\R-Music.dll
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\obj\Debug\net6.0\R-Music.pdb
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\obj\Debug\net6.0\R-Music.genruntimeconfig.cache
+G:\My Drive\ALURA\C#02 aplicando a orientação a objetos\R-Music\R-Music\obj\Debug\net6.0\ref\R-Music.dll
