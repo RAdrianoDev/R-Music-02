@@ -4,13 +4,10 @@
     public string SingerName { get; set; }
     public int LengthTime { get; set; }
     public bool Availability { get; set; }
-    public string Description 
-    { 
-        get 
-        {  
-            return $"The music {MusicName} belongs to {SingerName}";
-        }
-    }
+    public string Description => $"The music {MusicName} belongs to {SingerName}"; //=> read mode (lambda)
+    
+ 
+
 
 
     public void ShowDataSheet()
