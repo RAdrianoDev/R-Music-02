@@ -1,4 +1,4 @@
-﻿Album albumFeiYuChing = new Album();
+﻿Album albumFeiYuChing = new Album(); //font: https://www.deezer.com/en/album/41858721
 albumFeiYuChing.AlbumName = "Those Were The Days When My Heart Was (Remastered)";
 
 Music music1 = new Music();
@@ -47,6 +47,10 @@ albumFeiYuChing.AddMusic(music3);
 albumFeiYuChing.AddMusic(music4);
 albumFeiYuChing.AddMusic(music5);
 albumFeiYuChing.AddMusic(music6);
+albumFeiYuChing.AddMusic(music7);
+albumFeiYuChing.AddMusic(music8);
+albumFeiYuChing.AddMusic(music9);
+albumFeiYuChing.AddMusic(music10);
 
 albumFeiYuChing.ShowAlbumMusics();
 

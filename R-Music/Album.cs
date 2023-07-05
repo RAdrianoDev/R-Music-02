@@ -2,7 +2,7 @@
 {
     private List<Music> musics = new List<Music>();
     public string AlbumName { get; set; }
-    public int TotalLengthTime { get; set; }
+    public int TotalLengthTime => musics.Sum(musicTime =>musicTime.LengthTime);//use a variable to get Music Length time from music.cs
 
     public void AddMusic(Music musicName )
     {
@@ -16,5 +16,6 @@
         {
             Console.WriteLine($"Music: {musicName.MusicName}");
         }
+        Console.WriteLine($"\nThis Album has {TotalLengthTime} seconds of duration.");
     }
 }
