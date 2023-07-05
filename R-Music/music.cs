@@ -17,7 +17,7 @@ class Music
         availability = value;
     }
 
-    public bool Availability() 
+    public bool ReadAvailability() 
     {
         return availability;
     }
