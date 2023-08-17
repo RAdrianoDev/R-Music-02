@@ -1,12 +1,18 @@
 ﻿class Album
 {
     private List<Music> musics = new List<Music>();
-    public string AlbumName { get; set; }
-    public int TotalAlbumLengthTime => musics.Sum(musicTime =>musicTime.LengthTime);//use a variable to get Music Length time from music.cs
 
-    public void AddMusic(Music musicName )
+    public Album(string albumName)
     {
-        musics.Add ( musicName );
+        AlbumName = albumName;
+    }
+
+    public string AlbumName { get; }
+    public int TotalAlbumLengthTime => musics.Sum(musicTime => musicTime.LengthTime);//use a variable to get Music Length time from music.cs
+
+    public void AddMusic(Music musicName)
+    {
+        musics.Add(musicName);
     }
 
     public void ShowAlbumMusics()

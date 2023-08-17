@@ -1,49 +1,67 @@
-﻿Singer feiYuChing = new Singer();
-feiYuChing.SingerName = "Fei Yu Ching";
+﻿Singer feiYuChing = new Singer("Fei Yu Ching");
+
+Album albumFeiYuChing = new Album("Those Were The Days When My Heart Was (Remastered)"); //font.https://www.deezer.com/en/album/41858721
 
 
-Album albumFeiYuChing = new Album(); //font: https://www.deezer.com/en/album/41858721
-albumFeiYuChing.AlbumName = "Those Were The Days When My Heart Was (Remastered)";
+Music music1 = new Music(feiYuChing, "Those Were The Days When My Heart Was (Remastered)")
+{
+    LengthTime = 318,
+    Availability = true,
+};
 
-Music music1 = new Music(feiYuChing);
-music1.MusicName = "Those Were The Days When My Heart Was (Remastered)";
-music1.LengthTime = 318;
+Music music2 = new Music(feiYuChing, "You're My Forever Nostalgia (Remastered)")
+{
+    LengthTime = 284,
+    Availability = false,
+};
 
-Music music2 = new Music(feiYuChing);
-music2.MusicName = "You're My Forever Nostalgia (Remastered)";
-music2.LengthTime = 284;
+Music music3 = new Music(feiYuChing, "Heart Thoughts (Remastered)")
+{
+    LengthTime = 272,
+    Availability = true,
+};
 
-Music music3 = new Music(feiYuChing);
-music3.MusicName = "Heart Thoughts (Remastered)";
-music3.LengthTime = 272;
+Music music4 = new Music(feiYuChing, "Along The Way (Remastered)")
+{
+    LengthTime = 263,
+    Availability = true,
+};
 
-Music music4 = new Music(feiYuChing);
-music4.MusicName = "Along The Way (Remastered)";
-music4.LengthTime = 263;
+Music music5 = new Music(feiYuChing, "Goodbye Yesterday (Remastered)")
+{
+    LengthTime = 277,
+    Availability = true,
+};
 
-Music music5 = new Music(feiYuChing);
-music5.MusicName = "Goodbye Yesterday (Remastered)";
-music5.LengthTime = 277;
+Music music6 = new Music(feiYuChing, "Forever (Remastered)")
+{
+    LengthTime = 358,
+    Availability = true,
+};
 
-Music music6 = new Music(feiYuChing);
-music6.MusicName = "Forever (Remastered)";
-music6.LengthTime = 358;
+Music music7 = new Music(feiYuChing, "Dreaming Of You (Remastered)")
+{
+    LengthTime = 277,
+    Availability = false,
+};
 
-Music music7 = new Music(feiYuChing);
-music7.MusicName = "Dreaming Of You (Remastered)";
-music7.LengthTime = 277;
+Music music8 = new Music(feiYuChing, "Freedom (Remastered)")
+{
+    LengthTime = 353,
+    Availability = false,
+};
 
-Music music8 = new Music(feiYuChing);
-music8.MusicName = "Freedom (Remastered)";
-music8.LengthTime = 353;
+Music music9 = new Music(feiYuChing, "The Final Chapter (Remastered)")
+{
+    LengthTime = 256,
+    Availability = false,
+};
 
-Music music9 = new Music(feiYuChing);
-music9.MusicName = "The Final Chapter (Remastered)";
-music9.LengthTime = 256;
-
-Music music10 = new Music(feiYuChing);
-music10.MusicName = "Those Were The Days (Remastered)";
-music10.LengthTime = 165;
+Music music10 = new Music(feiYuChing, "Those Were The Days (Remastered)")
+{
+    LengthTime = 165,
+    Availability = false,
+};
 
 albumFeiYuChing.AddMusic(music1);
 albumFeiYuChing.AddMusic(music2);
@@ -56,12 +74,13 @@ albumFeiYuChing.AddMusic(music8);
 albumFeiYuChing.AddMusic(music9);
 albumFeiYuChing.AddMusic(music10);
 
-albumFeiYuChing.ShowAlbumMusics();
-
-
 feiYuChing.AddAlbum(albumFeiYuChing);
-feiYuChing.ShowDiscography();
 
+
+music1.ShowDataSheet();
+music2.ShowDataSheet();
+albumFeiYuChing.ShowAlbumMusics();
+feiYuChing.ShowDiscography();
 
 
 

@@ -1,7 +1,13 @@
 ﻿class Singer
 {
     private List<Album> albums = new List<Album>();
-    public string SingerName { get; set; }
+
+    public Singer(string singerName)
+    {
+        SingerName = singerName;
+    }
+
+    public string SingerName { get; }
 
     public void AddAlbum(Album album)
     {
