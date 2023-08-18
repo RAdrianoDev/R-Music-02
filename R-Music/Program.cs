@@ -63,6 +63,28 @@ Music music10 = new Music(feiYuChing, "Those Were The Days (Remastered)")
     Availability = false,
 };
 
+Episode ep1 = new(1, "Tech Episode Pilot", 45);
+ep1.AddGuests("CDN");
+ep1.AddGuests("Alan");
+Console.WriteLine(ep1.Summary);
+
+Console.WriteLine("\n\n\n");
+
+Episode ep2 = new(2, "Tech Episode Pilot 02", 58);
+ep2.AddGuests("CDN");
+ep2.AddGuests("Alan");
+ep2.AddGuests("Edu");
+Console.WriteLine(ep2.Summary);
+
+Console.WriteLine("\n\n\n");
+
+Podcast podcast = new("Tech Real Tips", "Ronaldo");
+podcast.AddEpisode(ep1);
+podcast.AddEpisode(ep2);
+podcast.ShowDetails();
+
+Console.WriteLine("\n\n\n");
+
 albumFeiYuChing.AddMusic(music1);
 albumFeiYuChing.AddMusic(music2);
 albumFeiYuChing.AddMusic(music3);
